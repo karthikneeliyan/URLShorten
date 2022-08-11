@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../urlshortner/server/build"
+		},
+		{
+			"path": "../urlshortner/server/src"
+		}
+	],
+	"settings": {}
+}

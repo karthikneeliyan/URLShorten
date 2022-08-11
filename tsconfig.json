@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+		"module": "commonjs",
+		"moduleResolution": "Node",
+    "target": "es2016"
+    // ... rest
+  }
+}
