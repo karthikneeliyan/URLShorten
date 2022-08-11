@@ -1,0 +1,139 @@
+.App{
+max-width: 80%;
+margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.search{
+  padding: 1rem;
+
+}
+.search_input{
+  background-color: rgb(251, 251, 253);
+  border-color: rgb(210, 212, 220);
+  border-radius: 0.125rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-sizing: border-box;
+  color: rgb(36, 40, 66);
+  font-family: Asap;
+  font-size: 0.938rem;
+  padding: 0.0625rem 0.75rem;
+  appearance: none;
+  height: 2.25rem;
+  width: 70%;
+  margin: 1rem;
+}
+input{
+  background-color: rgb(251, 251, 253);
+  border-color: rgb(210, 212, 220);
+  border-radius: 0.125rem;
+  border-style: solid;
+  border-width: 0.0625rem;
+  box-sizing: border-box;
+  color: rgb(36, 40, 66);
+  font-family: Asap;
+  font-size: 0.938rem;
+  padding: 0.0625rem 0.75rem;
+  appearance: none;
+}
+.search_input{
+
+  height: 2.25rem;
+  width: 70%;
+  margin: 1rem;
+}
+.shorturlinput{
+  height: 2.25rem;
+  width: 100%;
+  margin: 1rem;
+  
+}
+
+.shorturlinputdiv{
+display: flex;
+}
+.sorturldiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+}
+.copydiv{
+  top:1.2rem;
+  position: relative;
+  cursor: pointer;
+}
+.originalUrldiv{
+  padding: 1rem;
+  /* background-color: rgb(251, 251, 253); */
+  border-color: rgb(210, 212, 220);
+
+}
+.closediv{
+  position: relative;
+    bottom: 1.5rem;
+    right: 0.5rem;
+}
+
+button{
+  padding: .5rem;
+  margin-left: 1rem;
+}
+label{
+  padding: 1rem;
+  margin: 1rem;
+}
+.tbl{
+  display: flex;
+  justify-content: center;
+}
+.urltable {
+  border-collapse: collapse;
+  padding: 2rem;
+  width: 80%;
+}
+.urltable td, .urltable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.urltable tr:nth-child(even){background-color: #f2f2f2;}
+
+.urltable tr:hover {background-color: #ddd;}
+
+.urltable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+}
+td{
+  cursor: pointer;
+}
+@media (max-width: 47.9375em) {
+  .search{
+ max-width: 80%;
+  }
+  label{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .tbl{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+  }
+  td{
+    max-width: 16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+ .sorturldiv{
+  display: flex;
+  flex-direction: column;
+ }
+}
