@@ -24,6 +24,6 @@ const PORT = 3333;
 const db=await connectDB()
 console.log(db)
 })()
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`Server is running at PORT ${PORT}`);
 });
